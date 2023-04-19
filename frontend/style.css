@@ -356,7 +356,7 @@ footer {
 }
 
 
-/* @media (max-width: 1300px) {
+@media (max-width: 1300px) {
   .mainContent {
     width: 100%;
     display: flex;
@@ -421,4 +421,4 @@ footer {
 
     
 
-} */
+}
