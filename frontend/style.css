@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btnLogo {
+  border: none;
+}
+
+.dark {
+  font-size: 14px;
+  color: #fff;
+  font-family: "maven pro";
+  background-color: #363636;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.light {
+  font-size: 14px;
+  color: #333;
+  font-family: "maven pro";
+  background-color: #e8ebe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+#homeText {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1cm;
+  height: 250px;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+  padding: 150px;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  width: 300px;
+  height: 500px;
+  border-bottom: 1px solid #b4b4b4;
+  padding-bottom: 20px;
+}
+
+#navDiv {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.pageLinks {
+  font-size: 20px;
+  background-color: transparent;
+  text-decoration: none;
+  width: 90px;
+  text-align: left;
+  border: none;
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+
+.pageLinks:hover {
+  color: #333;
+  transition: all 0.5s ease-in-out;
+  font-size: 24px;
+  transition-delay: 0.3s;
+
+  text-align: left;
+  border: none;
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+
+#logoName {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#logoDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 1px solid #b4b4b4;
+  padding-bottom: 40px;
+}
+
+#logoDiv h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.logAndRegDiv {
+    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.showRegisterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 300px;
+  border-bottom: solid 1px #000;
+}
+
+.logButton {
+  width: 85px;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bookInfoDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleImgDiv {
+  display: flex;
+  justify-content: space-between;
+  
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px 0 10px;
+}
+
+.bookInfoDiv h3 {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#booksDiv,
+.bookDiv {
+  width: 700px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mainContent {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.booksImages {
+  width: 100px;
+  height: 125px;
+}
+
+
+#heroImg {
+  width: 600px;
+  height: 200px;
+  margin: 20px;
+  
+
+  border-radius: 5px;
+}
+
+.userH2 {
+    text-align: center;
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.user {
+  font-family: "Maven pro";
+  font-weight: 500;
+}
+
+.bookInfoDiv p {
+  margin: 2px;
+  font-size: 12px;
+}
+
+.sortBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+    
+ 
+}
+
+.bookBtn {
+  width: 80px;
+  height: 30px;
+  background-color: #a9a9a9;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+select {
+  width: 100px;
+  height: 30px;
+  background-color: #a9a9a9;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.boldInfo {
+  font-weight: 600;
+}
+
+.sortBtnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px
+}
+
+
+.showSavedBooksButton, .showRatedBooksButton {
+  width: 200px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.sortButton {
+    width: 150px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.userDiv  {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+      }
+
+      #moveDiv {
+        padding-right: 200px;
+      }
+
+div h3 {
+    text-align: center;
+}
+
+
+.ratedBooksDiv, #savedBooks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.blackLogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.blackLogo:hover {
+    rotate: 1800deg;
+    transition: all 3s ease-in-out;
+    scale: 0.1;
+}
+
+#homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  /* background-color: #f7f6ef; */
+}
+
+#homeContent div {
+  margin: 20px;
+  display: flex;
+}
+
+
+/* @media (max-width: 1300px) {
+  .mainContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #booksDiv,
+    .bookDiv {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #moveDiv {
+        padding-right: 0;
+    }
+
+    #homeContent div {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 180px;
+    }
+
+    #heroImg {
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+  .mainContent {
+    
+  }
+
+    #booksDiv,
+        .bookDiv {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+    
+        #homeContent div {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 180px;
+        }
+    
+        #heroImg {
+            width: 150px;
+            height: 150px;
+        }    
+
+
+    
+
+} */

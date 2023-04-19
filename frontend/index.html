@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div id="navigation">
+        <div id="logoDiv">
+          <img class="blackLogo" src="img/ankan.png" />
+          <h2 id="logoName">Book Ducks</h2>
+          <h4>A book Ducks store</h4>
+        </div>
+        <div id="navDiv">
+          <button class="pageLinks" id="homePage">Startsida</button>
+          <button class="pageLinks showBooksButton" id="bookPage">
+            Böcker
+          </button>
+          <button class="pageLinks" id="yourPage">Din sida</button>
+          <!-- <button class="pageLinks" id="contactPage" href="">Contact</button> -->
+          <button class="pageLinks" id="loginPage" href="">Logga in</button>
+        </div>
+      </div>
+
+      <div id="mainContent">
+        <div id="heroDiv" class="heroDiv">
+          <div id="homeContent" class="heroDiv">
+            <h1>Book Ducks</h1>
+            <img id="heroImg" src="img/bok3.jpg" alt="" />
+            <div>
+              <p id="homeText">
+                Välkommen till Book Ducks – din plats för att utforska, upptäcka
+                och dela läsupplevelser! Bläddra bland böcker, hitta dina
+                favoriter och betygsätta dem. Skapa ett konto, logga in och
+                spara dina favoritböcker, samtidigt som du delar åsikter med
+                andra bokälskare. Gå med i Book Ducks idag och upplev en värld
+                av litteratur och gemenskap!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="logAndRegDiv" class="hidden">
+          <div id="login" class="login">
+            <h2>Login</h2>
+            <br />
+            <input id="loginUsername" type="text" placeholder="Username" />
+            <input id="loginPassword" type="password" placeholder="Password" />
+            <button class="logButton" id="loginButton">Login</button>
+          </div>
+
+          <div id="showRegisterDiv" class="showRegisterDiv">
+            <h3>Vill du registrera nytt account?</h3>
+            <button class="logButton" id="registerButton">Register</button>
+          </div>
+
+          <div id="register" class="hidden">
+            <h2>Register</h2>
+            <input id="createUsername" type="text" placeholder="Username" />
+            <input id="createPassword" type="password" placeholder="Password" />
+            <input id="createEmail" type="text" placeholder="E-mail" />
+            <button class="logButton" id="createButton">Register</button>
+          </div>
+        </div>
+        <div id="moveDiv">
+          <div id="userDiv" class="hidden userDiv"></div>
+          <div id="savedBooks" class="hidden"></div>
+
+          <div id="ratedBooksDiv" class="hidden"></div>
+        </div>
+
+        <div id="booksDiv" class="hidden"></div>
+      </div>
+    </main>
+    <footer>
+      <h4>COPYRIGHT - BOOK DUCKS</h4>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "change_themes",
+  "info": {
+    "singularName": "change-theme",
+    "pluralName": "change-themes",
+    "displayName": "changeTheme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    }
+  }
+}
