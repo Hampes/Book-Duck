@@ -27,7 +27,7 @@ export const yourPageMode = () => {
       userDiv.innerHTML = `
   <h2 class="userH2">Välkommen <span class="user">${userName}</span></h2><br><br>
   <div>
-    <h3>HHär kan du se dina sparade böcker</h3><br>
+    <h3>Här kan du se dina sparade böcker</h3><br>
     <div class="sortBtnDiv">
       <button class="showSavedBooksButton">Visa sparade böcker</button>
       <button class="showRatedBooksButton">Visa betygsatta böcker</button>

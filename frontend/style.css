@@ -75,6 +75,10 @@ header {
   justify-content: space-around;
 }
 
+.lightText {
+  color: #fff;
+}
+
 .pageLinks {
   font-size: 20px;
   background-color: transparent;
@@ -85,6 +89,7 @@ header {
   margin: 10px 0 10px 0;
   cursor: pointer;
 }
+
 
 .pageLinks:hover {
   color: #333;

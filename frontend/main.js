@@ -12,11 +12,9 @@ let loginPage = document.getElementById("loginPage");
 
 if (sessionStorage.getItem("token")) {
   loggedInMode();
-  console.log("logged in");
   loginPage.innerHTML = "Logout";
 } else if (sessionStorage.getItem("token") == null) {
   unauthorized();
-  console.log("not logged in");
 }
 
 let homePage = document.getElementById("homePage");
@@ -29,7 +27,6 @@ if (sessionStorage.getItem("token")) {
   loginPage.addEventListener("click", () => {
     sessionStorage.removeItem("token");
     sessionStorage.removeItem("user");
-    console.log("logged out");
     loginPage.innerHTML = "Login";
 
     document.getElementById("login").classList.remove("hidden");

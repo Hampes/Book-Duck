@@ -2,7 +2,6 @@ export const changeTheme = () => {
   let changeColorTheme = async () => {
     let response = await axios.get("http://localhost:1333/api/change-theme");
 
-    console.log(response.data.data.attributes.theme);
 
     if (response.data.data.attributes.theme == "light") {
       document.querySelector("body").classList.add("light");
